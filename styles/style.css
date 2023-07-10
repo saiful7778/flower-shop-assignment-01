@@ -70,7 +70,7 @@ section {
   height: auto;
   display: block;
 }
-/* banner styles stop */
+/* banner styles end */
 
 /* feature styles start */
 .feature-item-section {
@@ -120,4 +120,34 @@ section {
   margin-top: 20px;
 }
 
-/* feature styles stop */
+/* feature styles end */
+
+/* announcement styles start */
+.announcement {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 40px 200px;
+}
+
+.announcement .announcement-contect {
+  width: 550px;
+}
+
+.announcement .announcement-contect .accent-title {
+  color: #e55473;
+}
+
+.announcement .des {
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.announcement .accouncment-img {
+  display: block;
+  width: 250px;
+}
+
+/* announcement styles end */

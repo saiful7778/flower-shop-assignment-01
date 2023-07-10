@@ -10,15 +10,26 @@ body {
 
 /* Common styles */
 section {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 100px 150px;
 }
 
 .des {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-des {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto 50px;
 }
 
 .btn {
@@ -60,3 +71,53 @@ section {
   display: block;
 }
 /* banner styles stop */
+
+/* feature styles start */
+.feature-item-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-item .feature-item-img-section {
+  padding: 0px 45px;
+  height: 380px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  align-items: flex-end;
+}
+
+.feature-item .feature-item-img {
+  max-width: 250px;
+  height: auto;
+  display: block;
+}
+
+.feature-item-title {
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-feature {
+  margin: 50px 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 70px 90px;
+}
+
+.icon-feature .feature-item {
+  text-align: center;
+}
+
+.icon-feature .des {
+  font-weight: bold;
+  color: rgba(39, 39, 39, 0.8);
+  margin-top: 20px;
+}
+
+/* feature styles stop */

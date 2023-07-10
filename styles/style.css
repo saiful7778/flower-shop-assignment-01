@@ -19,6 +19,13 @@ section {
   font-weight: 400;
 }
 
+.site-logo {
+  color: #e55473;
+}
+.site-logo span {
+  color: #ffffff;
+}
+
 .section-title {
   color: #272727;
   text-align: center;
@@ -180,3 +187,25 @@ section {
   border: 0;
 }
 /* subscribe style end */
+
+/* footer styles start */
+footer {
+  padding: 50px 0;
+  text-align: center;
+  background: #111010;
+}
+
+footer .des {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 30px auto;
+  width: 40%;
+  font-weight: 400;
+}
+
+footer .footer-text {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* footer styles end */

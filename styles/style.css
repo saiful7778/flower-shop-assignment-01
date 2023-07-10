@@ -39,17 +39,27 @@ section {
   margin: 20px auto 50px;
 }
 
-.btn {
+.btn,
+.btn-sec {
   border-radius: 8px;
-  background: #e55473;
   outline: none;
-  border: 0;
   display: inline-block;
-  color: #ffffff;
   padding: 15px 30px;
   font-size: 14px;
-  font-weight: 700;
   cursor: pointer;
+  font-weight: 600;
+}
+
+.btn {
+  background: #e55473;
+  border: 0;
+  color: #ffffff;
+}
+
+.btn-sec {
+  color: #e55473;
+  border: 1px solid #e55473;
+  background: #ffffff;
 }
 
 /* banner styles start */
@@ -128,6 +138,38 @@ section {
 }
 
 /* feature styles end */
+
+/* showcase-item styles start */
+.showcase-item-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.showcase-item-section .showcase-item-img {
+  max-width: 90%;
+  height: auto;
+}
+
+.showcase-item .showcase-item-title {
+  color: #272727;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.showcase-item .showcase-item-pice {
+  color: #303030;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.showcase-section .btn-sec {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* showcase-item styles end */
 
 /* announcement styles start */
 .announcement {
